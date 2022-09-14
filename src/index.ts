@@ -8,11 +8,7 @@ btn.addEventListener('click', async (e: MouseEvent) => {
   formData.append(
     'files',
     new File(
-      [
-        new Blob([new TextEncoder().encode('Lorem Ipsium')], {
-          type: 'text/plain',
-        }),
-      ],
+      [new Blob([new TextEncoder().encode('Lorem Ipsium')])],
       'new-file.txt',
       { type: 'text/plain' }
     )
