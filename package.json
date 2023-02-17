@@ -13,5 +13,8 @@
   "dependencies": {
     "@astrojs/node": "^1.1.0",
     "astro": "^1.6.8"
+  },
+  "devDependencies": {
+    "@types/node": "^18.13.0"
   }
 }
